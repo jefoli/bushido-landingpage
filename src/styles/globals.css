@@ -1,11 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --gradient-color-button: linear-gradient(to right, #e4d98e, #af8f50);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,10 +28,245 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #000;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: px 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 10;
+  background-color: #000;
+}
+
+.logo{
+  font-size: 2em;
+  color: #359381;
+  pointer-events: none;
+  margin-right: 270px;
+}
+
+.navigation a:hover, .navigation a.active {
+  background: var(--gradient-color-button);
+  color: #fff;
+}
+
+.sec {
+  position: relative;
+  background: white;
+  padding: 100px;
+}
+
+.sec h2 { 
+  font-size: 3em;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.sec p {
+  font-size: 1em;
+  color: #000;
+  font-weight: 300;
+
+}
+
+.sec2 {
+  position: relative;
+  color: white;
+  padding: 100px;
+}
+
+
+.sec2 h2 { 
+  font-size: 3em;
+  color: white;
+  margin-bottom: 10px;
+}
+
+
+.professores {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+
+.professor {
+  text-align: center;
+}
+
+.professor img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10%;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.professor:hover img {
+  transform: scale(1.1);
+}
+
+.professor h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.sec2 p {
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 10px;
+  transform: translateY(100%);
+  padding: 10px;
+  transition: transform 0.3s ease-in-out;
+  color: #000;
+  opacity: 0;
+
+}
+
+.sec2:hover p {
+  transform: translateY(0);
+  color: white;
+  opacity: 1;
+
+} 
+
+
+.horarios {
+  margin: 0 50px;
+  max-width: 700px;
+}
+
+.table-container {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #fff;
+}
+
+thead {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+th, td {
+  padding: 15px;
+}
+
+th {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+tbody tr {
+  border-bottom: 1px solid #f2f2f2;
+}
+
+tbody tr:last-child {
+  border-bottom: none;
+}
+
+tbody td:first-child {
+  font-weight: 700;
+}
+
+tbody td:not(:first-child) {
+  font-weight: 500;
+}
+
+.wrapper {
+  display: flex;
+  min-height: auto;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.location-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 50px;
+}
+
+
+.footer {
+  background-color: #f2f2f2;
+  padding: 40px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-info {
+  flex: 2;
+  text-align: right;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-links a {
+  color: #333;
+  text-decoration: none;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.contact-info li {
+  margin-bottom: 5px;
+}
+
+.contact-info li:before {
+  content: "\2022";
+  color: #333;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+
+.colorIcon {
+  color: linear-gradient(to right, #e4d98e, #af8f50);
+
 }
