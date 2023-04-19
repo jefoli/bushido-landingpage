@@ -1,6 +1,7 @@
 import Image from 'next/image';
-import img from '../../assets/images/logo.png';
+import img from '../../../public/assets/images/logo.png';
 import { FaInstagramSquare, FaFacebookSquare } from 'react-icons/fa';
+import Link from 'next/link';
 export const Footer = () => {
   return (
     <footer className="footer">
@@ -12,14 +13,14 @@ export const Footer = () => {
           <h3>Siga-nos:</h3>
           <ul className="social-links">
             <li>
-              <a className="colorIcon" href="https://www.facebook.com/">
+              <Link className="colorIcon" href="https://www.facebook.com/">
                 <FaFacebookSquare size={30} />
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="colorIcon" href="https://www.instagram.com/">
+              <Link className="colorIcon" href="https://www.instagram.com/">
                 <FaInstagramSquare size={30} />
-              </a>
+              </Link>
             </li>
           </ul>
           <h3>Contato:</h3>
