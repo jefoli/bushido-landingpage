@@ -3,6 +3,7 @@ import Image from 'next/image';
 import img from '../../../public/assets/images/logo.png';
 import imgBackground from '../../../public/assets/images/background.jpg';
 import { SectionContainer } from '../SectionContainer';
+import golpe from '../../../public/assets/images/golpe.png';
 
 export const ParallaxComponent = () => {
   const [value, setValue] = useState(0);
@@ -33,7 +34,7 @@ export const ParallaxComponent = () => {
             height={3000}
           />
         </div>
-        <div className="text-center mt-16 absolute" style={{ bottom: value * 1.5 + 'px' }}>
+        <div className="text-center mb-72 absolute" style={{ bottom: value * -0.8 + 'px' }}>
           <h1 className="mt-18 font-mono text-white text-5xl">
             ACADEMIA DE ARTES MARCIAIS BUSHIDO
           </h1>
@@ -44,11 +45,33 @@ export const ParallaxComponent = () => {
         </div>
         <div className="mt-16 absolute " style={{ top: value * 1.0 + 'px' }}>
           <Image
-            className="relative mt-12	l-0 w-full pointer-events-none	"
+            className="relative mt-8	l-0 w-full pointer-events-none	"
             src={img}
+            width={300}
+            height={300}
+            style={{ width: 300 + value * 0.1 + 'px' }}
+          />
+        </div>
+
+        <div className="-ml-28 -bottom-10	 absolute " style={{ left: value * 0.1 + 'px' }}>
+          <Image
+            className="relative mt-12	l-0 w-full pointer-events-none  filter grayscale invert"
+            src={golpe}
             width={600}
             height={600}
-            // style={({ width: value * 0.6 + 'px' }, { height: value * 0.6 + 'px' })}
+            style={({ transform: `rotate(${value * 0.4}deg)` }, { width: value * 0.6 + 'px' })}
+          />
+        </div>
+        <div
+          className="-mr-10 -bottom-10 absolute -scale-x-100"
+          style={{ right: value * 0.1 + 'px' }}
+        >
+          <Image
+            className="relative mt-12 l-0 w-full pointer-events-none filter grayscale invert"
+            src={golpe}
+            width={600}
+            height={600}
+            style={({ transform: `rotate(${value * 0.4}deg)` }, { width: value * 0.6 + 'px' })}
           />
         </div>
       </div>
