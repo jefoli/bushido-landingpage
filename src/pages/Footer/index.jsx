@@ -4,7 +4,7 @@ import { FaInstagramSquare, FaFacebookSquare } from 'react-icons/fa';
 import Link from 'next/link';
 export const Footer = () => {
   return (
-    <footer className="footer" id="footer">
+    <footer className="footer bg-zinc-100" id="footer">
       <div className="footer-container">
         <div className="footer-logo">
           <Image src={img} width={200} height={200} alt="Logo" />

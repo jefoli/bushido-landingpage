@@ -1,4 +1,4 @@
-import { ContentDefault } from '@/Components/Content';
+import { About } from '@/pages/About';
 import { Address } from '@/Components/Address';
 import { Schedule } from '@/Components/Schedule';
 import { Navbar } from '@/Components/Navbar';
@@ -11,7 +11,7 @@ export const Home = () => {
     <>
       <Navbar />
       <ParallaxComponent />
-      <ContentDefault />
+      <About />
       <TeacherList />
       <Schedule />
       <Address />

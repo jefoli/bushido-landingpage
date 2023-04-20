@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import img from '../../../public/assets/images/logo.png';
 import imgBackground from '../../../public/assets/images/background.jpg';
+import { SectionContainer } from '../SectionContainer';
 
 export const ParallaxComponent = () => {
   const [value, setValue] = useState(0);
@@ -22,7 +23,7 @@ export const ParallaxComponent = () => {
   }, []);
 
   return (
-    <>
+    <SectionContainer>
       <div className="flex justify-center	h-screen relative object-cover">
         <div style={{ marginTop: value * 0.5 + 'px' }}>
           <Image
@@ -32,7 +33,7 @@ export const ParallaxComponent = () => {
             height={3000}
           />
         </div>
-        <div className="text-center mt-16 absolute " style={{ bottom: value * 1.5 + 'px' }}>
+        <div className="text-center mt-16 absolute" style={{ bottom: value * 1.5 + 'px' }}>
           <h1 className="mt-18 font-mono text-white text-5xl">
             ACADEMIA DE ARTES MARCIAIS BUSHIDO
           </h1>
@@ -51,6 +52,6 @@ export const ParallaxComponent = () => {
           />
         </div>
       </div>
-    </>
+    </SectionContainer>
   );
 };
