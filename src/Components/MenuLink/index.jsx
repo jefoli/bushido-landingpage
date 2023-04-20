@@ -5,7 +5,7 @@ export const MenuLink = ({ href, children }) => {
   return (
     <Link
       className="active py-1.5 px-5 rounded-md mx-2.5 font-semibold text-white
-    no-underline container"
+    no-underline"
       href={href}
     >
       {children}

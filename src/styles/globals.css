@@ -58,6 +58,7 @@ header {
   color: #fff;
 }
 
+
 .sec {
   position: relative;
   background: white;
@@ -93,42 +94,8 @@ header {
 
 .professores {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-gap: 30px;
-}
-
-.professor {
-  text-align: center;
-}
-
-.professor img {
-  width: 100%;
-  max-width: 300px;
-  border-radius: 10%;
-  margin-bottom: 10px;
-  transition: transform 0.3s ease-in-out;
-}
-
-.professor:hover img {
-  transform: scale(1.1);
-}
-
-.professor h3 {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin: 0;
-}
-
-.sec2 p {
-  font-size: 1.2rem;
-  margin: 0;
-  padding: 10px;
-  transform: translateY(100%);
-  padding: 10px;
-  transition: transform 0.3s ease-in-out;
-  color: #000;
-  opacity: 0;
-
 }
 
 .sec2:hover p {

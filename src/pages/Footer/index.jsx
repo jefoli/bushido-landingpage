@@ -4,7 +4,7 @@ import { FaInstagramSquare, FaFacebookSquare } from 'react-icons/fa';
 import Link from 'next/link';
 export const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" id="footer">
       <div className="footer-container">
         <div className="footer-logo">
           <Image src={img} width={200} height={200} alt="Logo" />
@@ -13,12 +13,22 @@ export const Footer = () => {
           <h3>Siga-nos:</h3>
           <ul className="social-links">
             <li>
-              <Link className="colorIcon" href="https://www.facebook.com/">
+              <Link
+                className="colorIcon"
+                href="https://www.facebook.com/bushidojudoejiujitsu/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaFacebookSquare size={30} />
               </Link>
             </li>
             <li>
-              <Link className="colorIcon" href="https://www.instagram.com/">
+              <Link
+                className="colorIcon"
+                href="https://www.instagram.com/bushido.academia/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaInstagramSquare size={30} />
               </Link>
             </li>
