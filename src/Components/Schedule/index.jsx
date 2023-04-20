@@ -5,13 +5,7 @@ export const Schedule = () => {
     <SectionContainer id="schedule">
       <div className="absolute w-full h-full bg-white flex	justify-center	">
         <div className="table-column-group items-center max-w-7xl my-12">
-          {/* 
-        .wrapper {
-  align-items: center;
-  justify-content: center;
-} */}
-
-          <h2 className="text-3xl font-bold m-4 my-8	">Horários de Aula</h2>
+          <h className="text-3xl font-bold m-4 my-8	custom-font ">Horários de Aula</h>
           <p className="text-2xl p-3">
             Os horários de aula da escola Judo Bushido são pensados para atender a todos os alunos,
             desde crianças até adultos. As aulas de Judo Kids acontecem às segundas e
@@ -20,7 +14,7 @@ export const Schedule = () => {
             e no sábado, das 10h às 11h. Venha treinar conosco e aprimorar suas habilidades em uma
             modalidade que traz muitos benefícios para a saúde e o bem-estar físico e mental!
           </p>
-          <table>
+          <table className="text-2xl p-3">
             <thead>
               <tr>
                 <th>Dia da semana</th>

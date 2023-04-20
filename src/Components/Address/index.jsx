@@ -5,7 +5,7 @@ export const Address = () => {
     <SectionContainer>
       <div className="location-container absolute w-full h-full bg-white">
         <div className="address ">
-          <h1 className="text-4xl font-bold m-5"> Venha nos visitar! </h1>
+          <h1 className="text-4xl font-bold m-5 custom-font"> Venha nos visitar! </h1>
           <p className="text-2xl p-3">
             Estamos localizados na Rua dos Judocas, 123, no bairro Jardim do Judô, em São Paulo.
             Nossa academia, a Judo Bushido, está pronta para receber alunos de todas as idades e
@@ -13,7 +13,7 @@ export const Address = () => {
             o programa de treinamento certo para você. Use o mapa abaixo para nos encontrar e agende
             uma aula experimental hoje mesmo!
           </p>
-          <h2 className="text-2xl font-bold m-5">Endereço:</h2>
+          <h2 className="text-2xl font-bold m-5 custom-font">Endereço:</h2>
           <p className="text-2xl p-3">Rua Doutor Prudente de Morais, 1330</p>
           <p className="text-2xl p-3">Jardim Moderna</p>
           <p className="text-2xl p-3">Tatuí-SP</p>

@@ -2,9 +2,9 @@ import P from 'prop-types';
 
 export const TeacherCard = ({ name, rank }) => {
   return (
-    <div className="text-center">
+    <div className="text-center text-slate-800 bg-gradient-teste rounded-xl">
       <img
-        className="mb-2.5	max-w-xs rounded-xl ease-in-out duration-300	md:ease-in hover:scale-125"
+        className="mb-2.5	rounded-xl ease-in-out duration-200	md:ease-in hover:scale-105"
         src="https://www.institutoclaro.org.br/educacao/wp-content/uploads/sites/2/2022/11/judo-destaque.png"
         alt="Foto do professor 1"
         width={700}

@@ -10,8 +10,8 @@ export const Footer = () => {
           <Image src={img} width={200} height={200} alt="Logo" />
         </div>
         <div className="footer-info">
-          <h3>Siga-nos:</h3>
-          <ul className="social-links">
+          <h3 className="custom-font custom-text">Siga-nos:</h3>
+          <ul className="social-links ">
             <li>
               <Link
                 className="colorIcon"
@@ -34,7 +34,10 @@ export const Footer = () => {
             </li>
           </ul>
           <h3>Contato:</h3>
-          <ul className="contact-info">
+          <ul
+            className="contact-info list-style: none;
+"
+          >
             <li>Telefone: 123-456-7890</li>
             <li>Email: exemplo@exemplo.com</li>
           </ul>

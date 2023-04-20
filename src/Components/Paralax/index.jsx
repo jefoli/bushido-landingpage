@@ -34,11 +34,11 @@ export const ParallaxComponent = () => {
             height={3000}
           />
         </div>
-        <div className="text-center mb-72 absolute" style={{ bottom: value * -0.8 + 'px' }}>
-          <h1 className="mt-18 font-mono text-white text-5xl">
+        <div className="text-center mb-72 absolute" style={{ bottom: value * -0.9 + 'px' }}>
+          <h1 className="mt-18 custom-font custom-text text-5xl">
             ACADEMIA DE ARTES MARCIAIS BUSHIDO
           </h1>
-          <h2 className="mt-10 font-mono text-white text-3xl">
+          <h2 className="mt-10 custom-font text-white text-3xl">
             Na Academia de Judô Bushido, você é desafiado a superar seus limites e medos para
             alcançar a excelência, tanto dentro quanto fora do tatame
           </h2>
