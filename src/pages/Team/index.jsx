@@ -12,13 +12,7 @@ export const Team = () => {
           deles:
         </p>
         <div className="professores custom-font">
-          <TeacherCard name="Jeferson de Oliveira" rank="Faixa Branca" />
-          <TeacherCard name="Jeferson de Oliveira" rank="Faixa Branca" />
-          <TeacherCard name="Jeferson de Oliveira" rank="Faixa Branca" />
-          <TeacherCard name="Jeferson de Oliveira" rank="Faixa Branca" />
-          <TeacherCard name="Jeferson de Oliveira" rank="Faixa Branca" />
-          <TeacherCard name="Jeferson de Oliveira" rank="Faixa Branca" />
-          <TeacherCard name="Jeferson de Oliveira" rank="Faixa Branca" />
+          <TeacherCard />
         </div>
       </section>
     </SectionContainer>

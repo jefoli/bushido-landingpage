@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-key */
 import P from 'prop-types';
 import { scheduleData } from './scheduleData';
 
@@ -13,9 +12,9 @@ export const ScheduleTableRows = () => {
         </tr>
       </thead>
       <tbody>
-        {scheduleData.map((data) => {
+        {scheduleData.map((data, index) => {
           return (
-            <tr>
+            <tr key={index}>
               <td>{data.day}</td>
               <td>{data.time}</td>
               <td>{data.ageGroup}</td>
