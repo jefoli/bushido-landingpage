@@ -1,11 +1,8 @@
-import { SectionContainer } from '../SectionContainer';
-import { TeacherCard } from '../TeacherCard';
+import { SectionContainer } from '@/Components/SectionContainer';
+import { TeacherCard } from '@/Components/TeacherCard';
 
-export const TeacherList = () => {
+export const Team = () => {
   return (
-    //!REPETIDO EM PAGES, REVISAR COM URGÊNCIA
-    //!REPETIDO EM PAGES, REVISAR COM URGÊNCIA
-
     <SectionContainer>
       <section className="sec2  text-white bg-black w-full h-full" id="team">
         <h2 className="custom-font custom-text">Conheça Nossos Professores</h2>

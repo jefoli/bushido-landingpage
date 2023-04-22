@@ -1,4 +1,5 @@
-import { SectionContainer } from '../SectionContainer';
+import { ScheduleTableRows } from '@/Components/ScheduleTableRows';
+import { SectionContainer } from '@/Components/SectionContainer';
 
 export const Schedule = () => {
   return (
@@ -14,37 +15,7 @@ export const Schedule = () => {
             e no sábado, das 10h às 11h. Venha treinar conosco e aprimorar suas habilidades em uma
             modalidade que traz muitos benefícios para a saúde e o bem-estar físico e mental!
           </p>
-          <table className="text-2xl p-3">
-            <thead>
-              <tr>
-                <th>Dia da semana</th>
-                <th>Horário</th>
-                <th>Turma</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Segunda-feira</td>
-                <td>19:30 - 20:30</td>
-                <td>Judo Kids</td>
-              </tr>
-              <tr>
-                <td>Terça-feira</td>
-                <td>19:30 - 21:30</td>
-                <td>Adulto</td>
-              </tr>
-              <tr>
-                <td>Quarta-feira</td>
-                <td>19:30 - 20:30</td>
-                <td>Judo Kids</td>
-              </tr>
-              <tr>
-                <td>Quinta-feira</td>
-                <td>19:30 - 21:30</td>
-                <td>Adulto</td>
-              </tr>
-            </tbody>
-          </table>
+          <ScheduleTableRows />
         </div>
       </div>
     </SectionContainer>
