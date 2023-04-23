@@ -3,8 +3,11 @@ import { SectionContainer } from '../../Components/SectionContainer';
 export const About = () => {
   return (
     <SectionContainer id="about">
-      <div className="bg-white absolute p-10 w-full h-full">
-        <h2 className="text-4xl font-bold m-5 custom-font text-"> Nossa História </h2>
+      <div className=" relative p-10 w-full max-h-max bg-white">
+        <h2 className="text-4xl font-bold m-5 custom-font custom-text uppercase">
+          {' '}
+          Nossa História{' '}
+        </h2>
         <p className="text-2xl p-3">
           No ano de 2021, um grupo de amigos apaixonados por Judô decidiu fundar uma nova academia
           na cidade de Tatuí. Inspirados pelos valores do esporte, como respeito, disciplina e

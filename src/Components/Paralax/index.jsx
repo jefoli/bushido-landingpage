@@ -10,7 +10,7 @@ export const ParallaxComponent = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY < 1300) {
+      if (window.scrollY < 900) {
         setValue(window.scrollY);
       } else {
         setValue(0);
@@ -28,7 +28,7 @@ export const ParallaxComponent = () => {
       <div className="flex justify-center	h-screen relative object-cover">
         <div style={{ marginTop: value * 0.5 + 'px' }}>
           <Image
-            className=" t-0	l-0 r-0 b-0 	w-full pointer-events-none opacity-20 object-cover"
+            className=" t-0	l-0 r-0 b-0 	w-full min-h-full pointer-events-none opacity-20 object-cover"
             src={imgBackground}
             width={3000}
             height={3000}
@@ -55,11 +55,11 @@ export const ParallaxComponent = () => {
 
         <div className="-ml-28 -bottom-10	 absolute " style={{ left: value * 0.1 + 'px' }}>
           <Image
-            className="relative mt-12	l-0 w-full pointer-events-none  filter grayscale invert"
+            className="relative mt-12	l-0 w-full pointer-events-none  filter grayscale invert -z-10"
             src={golpe}
             width={600}
             height={600}
-            style={({ transform: `rotate(${value * 0.4}deg)` }, { width: value * 0.6 + 'px' })}
+            style={({ transform: `rotate(${value * 0.4}deg)` }, { width: value * 0.5 + 'px' })}
           />
         </div>
         <div
@@ -67,11 +67,11 @@ export const ParallaxComponent = () => {
           style={{ right: value * 0.1 + 'px' }}
         >
           <Image
-            className="relative mt-12 l-0 w-full pointer-events-none filter grayscale invert"
+            className="relative mt-12 l-0 w-full pointer-events-none filter grayscale invert -z-10"
             src={golpe}
             width={600}
             height={600}
-            style={({ transform: `rotate(${value * 0.4}deg)` }, { width: value * 0.6 + 'px' })}
+            style={({ transform: `rotate(${value * 0.4}deg)` }, { width: value * 0.5 + 'px' })}
           />
         </div>
       </div>

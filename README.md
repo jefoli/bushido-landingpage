@@ -16,5 +16,3 @@ O projeto está sendo construído utilizando as seguintes tecnologias:
 ## Contato
 
 Para entrar em contato comigo, por favor envie um e-mail para hiftpro@gmail.com. Ficarei feliz em responder a quaisquer dúvidas ou comentários sobre o projeto.
-
-Espero que isso esteja de acordo com o que você deseja transmitir sobre o projeto da landing page para a academia de judô Bushido e a oferta de bolsa a um aluno sem condições financeiras em troca do desenvolvimento do projeto. Lembre-se de verificar e cumprir com as regulamentações e políticas da academia em relação às bolsas e às suas próprias obrigações como desenvolvedor do projeto.

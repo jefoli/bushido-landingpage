@@ -1,4 +1,3 @@
-import P from 'prop-types';
 import { scheduleData } from './scheduleData';
 
 export const ScheduleTableRows = () => {
@@ -6,9 +5,9 @@ export const ScheduleTableRows = () => {
     <table className="text-2xl p-3">
       <thead>
         <tr>
-          <th>Dia da semana</th>
-          <th>Horário</th>
-          <th>Turma</th>
+          <th className="custom-font custom-text">Dia da semana</th>
+          <th className="custom-font custom-text">Horário</th>
+          <th className="custom-font custom-text">Turma</th>
         </tr>
       </thead>
       <tbody>
@@ -24,10 +23,4 @@ export const ScheduleTableRows = () => {
       </tbody>
     </table>
   );
-};
-
-ScheduleTableRows.propTypes = {
-  day: P.string.isRequired,
-  time: P.string.isRequired,
-  ageGroup: P.string.isRequired,
 };
