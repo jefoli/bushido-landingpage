@@ -59,7 +59,7 @@ export const ParallaxComponent = () => {
             src={golpe}
             width={600}
             height={600}
-            style={({ transform: `rotate(${value * 0.4}deg)` }, { width: value * 0.5 + 'px' })}
+            style={{ width: value * 0.4 + 'px' }}
           />
         </div>
         <div
@@ -71,7 +71,7 @@ export const ParallaxComponent = () => {
             src={golpe}
             width={600}
             height={600}
-            style={({ transform: `rotate(${value * 0.4}deg)` }, { width: value * 0.5 + 'px' })}
+            style={{ width: value * 0.4 + 'px' }}
           />
         </div>
       </div>

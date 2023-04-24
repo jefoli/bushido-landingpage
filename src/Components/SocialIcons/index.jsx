@@ -5,10 +5,9 @@ import { AiOutlineMail } from 'react-icons/ai';
 
 export const SocialIcons = () => {
   return (
-    <ul className="social-links flex">
+    <ul className="social-links flex justify-end">
       <li>
         <Link
-          className="colorIcon"
           href="https://www.facebook.com/bushidojudoejiujitsu/"
           target="_blank"
           rel="noopener noreferrer"
@@ -21,7 +20,6 @@ export const SocialIcons = () => {
       </li>
       <li>
         <Link
-          className="colorIcon "
           href="https://www.instagram.com/bushido.academia/"
           target="_blank"
           rel="noopener noreferrer"
@@ -32,7 +30,6 @@ export const SocialIcons = () => {
 
       <li>
         <Link
-          className="colorIcon"
           href="https://www.instagram.com/bushido.academia/"
           target="_blank"
           rel="noopener noreferrer"
@@ -42,7 +39,6 @@ export const SocialIcons = () => {
       </li>
       <li>
         <Link
-          className="colorIcon"
           href="https://www.instagram.com/bushido.academia/"
           target="_blank"
           rel="noopener noreferrer"
@@ -53,7 +49,6 @@ export const SocialIcons = () => {
 
       <li>
         <Link
-          className="colorIcon"
           href="https://www.instagram.com/bushido.academia/"
           target="_blank"
           rel="noopener noreferrer"

@@ -2,8 +2,8 @@ import { SectionContainer } from '../../Components/SectionContainer';
 
 export const About = () => {
   return (
-    <SectionContainer id="about">
-      <div className=" relative p-10 w-full max-h-max bg-white">
+    <SectionContainer>
+      <div className=" relative p-10 w-full max-h-max bg-white" id="about">
         <h2 className="text-4xl font-bold m-5 custom-font custom-text uppercase">
           {' '}
           Nossa História{' '}
