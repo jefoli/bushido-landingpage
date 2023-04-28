@@ -1,7 +1,7 @@
 import { ScheduleTableRows } from '@/Components/ScheduleTableRows';
 import { SectionContainer } from '@/Components/SectionContainer';
 
-export const Schedule = () => {
+function Schedule() {
   return (
     <SectionContainer>
       <div className="w-full h-full bg-black flex	justify-center p-10" id="schedule">
@@ -22,4 +22,6 @@ export const Schedule = () => {
       </div>
     </SectionContainer>
   );
-};
+}
+
+export default Schedule;

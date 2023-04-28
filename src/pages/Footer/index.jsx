@@ -2,7 +2,8 @@ import Image from 'next/image';
 import img from '../../../public/assets/images/logo.png';
 import { SocialIcons } from '@/Components/SocialIcons';
 import { Address } from '@/Components/Address';
-export const Footer = () => {
+
+function Footer() {
   return (
     <footer className="footer bg-white p-10 pb-1" id="footer">
       <Address />
@@ -26,4 +27,6 @@ export const Footer = () => {
       </div>
     </footer>
   );
-};
+}
+
+export default Footer;

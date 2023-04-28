@@ -1,7 +1,7 @@
 import { SectionContainer } from '@/Components/SectionContainer';
 import { ValueDisplay } from '@/Components/ValueDisplay';
 
-export const ValuesPage = () => {
+function ValuesPage() {
   return (
     <SectionContainer>
       <div className="text-white bg-black max-w-full max-h-min p-10">
@@ -15,4 +15,6 @@ export const ValuesPage = () => {
       </div>
     </SectionContainer>
   );
-};
+}
+
+export default ValuesPage;

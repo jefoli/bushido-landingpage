@@ -1,7 +1,7 @@
 import { SectionContainer } from '@/Components/SectionContainer';
 import { TeacherCard } from '@/Components/TeacherCard';
 
-export const Team = () => {
+function Team() {
   return (
     <SectionContainer>
       <section className="sec2  p-10  text-black bg-white w-full min-h-min" id="team">
@@ -19,4 +19,6 @@ export const Team = () => {
       </section>
     </SectionContainer>
   );
-};
+}
+
+export default Team;

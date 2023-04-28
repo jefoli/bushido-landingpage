@@ -1,6 +1,6 @@
 import { SectionContainer } from '../../Components/SectionContainer';
 
-export const About = () => {
+function About() {
   return (
     <SectionContainer>
       <div className=" relative p-10 w-full max-h-max bg-white" id="about">
@@ -39,4 +39,6 @@ export const About = () => {
       </div>
     </SectionContainer>
   );
-};
+}
+
+export default About;

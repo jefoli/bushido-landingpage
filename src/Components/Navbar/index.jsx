@@ -5,7 +5,7 @@ import { useState } from 'react';
 // import { IoCloseSharp } from 'react-icons/io5';
 import { SocialIcons } from '../SocialIcons';
 
-export const Navbar = () => {
+export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
@@ -36,4 +36,4 @@ export const Navbar = () => {
       </header>
     </>
   );
-};
+}

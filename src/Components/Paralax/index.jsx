@@ -5,7 +5,7 @@ import imgBackground from '../../../public/assets/images/background.jpg';
 import { SectionContainer } from '../SectionContainer';
 import golpe from '../../../public/assets/images/golpe.png';
 
-export const ParallaxComponent = () => {
+export default function ParallaxComponent() {
   const [value, setValue] = useState(0);
 
   useEffect(() => {
@@ -77,4 +77,4 @@ export const ParallaxComponent = () => {
       </div>
     </SectionContainer>
   );
-};
+}
