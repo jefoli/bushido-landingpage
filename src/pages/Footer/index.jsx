@@ -13,12 +13,12 @@ function Footer() {
           <Image src={img} width={200} height={200} alt="Logo" />
         </div>
         <div className="footer-info">
-          <h3 className="custom-font custom-text">Siga-nos:</h3>
+          <h3 className=" text-2xl custom-font custom-text p-2">Siga-nos</h3>
           <SocialIcons />
-          <h3>Contato:</h3>
+          <h3 className="text-2xl custom-font custom-text p-2">Contato</h3>
           <ul className="contact-info list-style: none">
-            <li>Telefone: 123-456-7890</li>
-            <li>Email: exemplo@exemplo.com</li>
+            <li className="text-xl p-2">15 - 99672-7437</li>
+            <li className="text-xl p-2">academiadeartesmarciaisbushido@gmail.com</li>
           </ul>
         </div>
       </div>

@@ -20,7 +20,7 @@ export const SocialIcons = () => {
       </li>
       <li>
         <Link
-          href="https://www.instagram.com/bushido.academia/"
+          href="https://www.instagram.com/academiabushido_/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -39,7 +39,7 @@ export const SocialIcons = () => {
       </li>
       <li>
         <Link
-          href="https://www.instagram.com/bushido.academia/"
+          href="https://api.whatsapp.com/send/?phone=5515996727437&text=Ol%C3%A1%2C+Academia+Bushido+ao+seu+dispor!&type=phone_number&app_absent=0"
           target="_blank"
           rel="noopener noreferrer"
         >

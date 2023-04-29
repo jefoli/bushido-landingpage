@@ -26,15 +26,16 @@ export default function ParallaxComponent() {
   return (
     <SectionContainer>
       <div className="flex justify-center	h-screen relative object-cover">
-        <div style={{ marginTop: value * 0.5 + 'px' }}>
+        <div style={{ marginTop: value * -0.2 + 'px' }}>
           <Image
-            className=" t-0	l-0 r-0 b-0 	w-full min-h-full pointer-events-none opacity-20 object-cover"
+            className=" w-full h-full pointer-events-none opacity-20 object-cover"
             src={imgBackground}
-            width={3000}
-            height={3000}
           />
         </div>
-        <div className="text-center mb-72 absolute" style={{ bottom: value * -0.9 + 'px' }}>
+        <div
+          className="text-center mb-44 absolute container"
+          style={{ bottom: value * -0.9 + 'px' }}
+        >
           <h1 className="mt-18 custom-font custom-text text-5xl">
             ACADEMIA DE ARTES MARCIAIS BUSHIDO
           </h1>
@@ -43,9 +44,9 @@ export default function ParallaxComponent() {
             alcançar a excelência, tanto dentro quanto fora do tatame
           </h2>
         </div>
-        <div className="mt-16 absolute " style={{ top: value * 1.0 + 'px' }}>
+        <div className="mt-16 absolute" style={{ paddingTop: value * 1.0 + 'px' }}>
           <Image
-            className="relative mt-8	l-0 w-full pointer-events-none	"
+            className="relative mt-8	l-0 w-full pointer-events-none	container"
             src={img}
             width={300}
             height={300}
@@ -53,21 +54,18 @@ export default function ParallaxComponent() {
           />
         </div>
 
-        <div className="-ml-28 -bottom-10	 absolute " style={{ left: value * 0.1 + 'px' }}>
+        <div className="-ml-28 -bottom-10	 absolute" style={{ left: value * 0.1 + 'px' }}>
           <Image
-            className="relative mt-12	l-0 w-full pointer-events-none  filter grayscale invert -z-10"
+            className="relative mt-12	l-0 w-full pointer-events-none  filter grayscale invert -z-10 "
             src={golpe}
             width={600}
             height={600}
             style={{ width: value * 0.4 + 'px' }}
           />
         </div>
-        <div
-          className="-mr-10 -bottom-10 absolute -scale-x-100"
-          style={{ right: value * 0.1 + 'px' }}
-        >
+        <div className="-ml-28 -bottom-10	 absolute" style={{ right: value * 0.1 + 'px' }}>
           <Image
-            className="relative mt-12 l-0 w-full pointer-events-none filter grayscale invert -z-10"
+            className="relative mt-12	l-0 w-full pointer-events-none  filter grayscale invert -z-10 -scale-x-100 container"
             src={golpe}
             width={600}
             height={600}
