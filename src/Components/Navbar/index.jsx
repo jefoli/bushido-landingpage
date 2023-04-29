@@ -2,7 +2,7 @@ import Image from 'next/image';
 import imgName from '../../../public/assets/images/name.png';
 import { MenuLink } from '../MenuLink';
 import { SocialIcons } from '../SocialIcons';
-import { IoCloseSharp } from 'react-icons/io5';
+import { IoReorderThreeSharp } from 'react-icons/io5';
 import { useState } from 'react';
 
 export default function Navbar() {
@@ -46,6 +46,12 @@ export default function Navbar() {
                 >
                   Contato
                 </MenuLink>
+                <MenuLink
+                  href="/"
+                  className="flex hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
+                >
+                  Gokyo
+                </MenuLink>
               </div>
             </div>
           </nav>
@@ -58,7 +64,7 @@ export default function Navbar() {
               aria-expanded="false"
               onClick={() => setVisibleMobileMenu(!visibleMobileMenu)}
             >
-              <IoCloseSharp />
+              <IoReorderThreeSharp />
             </button>
           </div>
           <div className="md:hidden">

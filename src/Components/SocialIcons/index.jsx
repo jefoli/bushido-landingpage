@@ -14,7 +14,7 @@ export const SocialIcons = () => {
         >
           <FaFacebookSquare
             size={30}
-            className="text-white hover:text-[#ccb312] hover:scale-110 mx-1"
+            className="text-[#ccb312] hover:text-white hover:scale-110 mx-1"
           />
         </Link>
       </li>
@@ -24,7 +24,7 @@ export const SocialIcons = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaInstagram size={30} className="text-white hover:text-[#ccb312] hover:scale-110 mx-1" />
+          <FaInstagram size={30} className="text-[#ccb312] hover:text-white hover:scale-110 mx-1" />
         </Link>
       </li>
 
@@ -34,7 +34,7 @@ export const SocialIcons = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <TfiYoutube size={30} className="text-white hover:text-[#ccb312] hover:scale-110 mx-1" />
+          <TfiYoutube size={30} className="text-[#ccb312] hover:text-white hover:scale-110 mx-1" />
         </Link>
       </li>
       <li>
@@ -43,7 +43,7 @@ export const SocialIcons = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaWhatsapp size={30} className="text-white hover:text-[#ccb312] hover:scale-110 mx-1" />
+          <FaWhatsapp size={30} className="text-[#ccb312] hover:text-white hover:scale-110 mx-1" />
         </Link>
       </li>
 
@@ -55,7 +55,7 @@ export const SocialIcons = () => {
         >
           <AiOutlineMail
             size={30}
-            className="text-white hover:text-[#ccb312] hover:scale-110 mx-1"
+            className="text-[#ccb312] hover:text-white hover:scale-110 mx-1"
           />
         </Link>
       </li>

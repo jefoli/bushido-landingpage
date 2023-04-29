@@ -1,16 +1,16 @@
 import { teacherData } from './teacherData';
 export const TeacherCard = () => {
   return (
-    <>
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
       {teacherData.map((data, index) => {
         return (
           <div
-            className="container professores custom-font ease-in-out duration-200	md:ease-in hover:scale-105 "
+            className="custom-font ease-in-out duration-200	md:ease-in hover:scale-105 "
             key={index}
           >
-            <div className="text-center text-zinc-800 bg-gradient-teste rounded-xl container">
+            <div className="text-center text-zinc-800 bg-gradient-teste rounded-xl">
               <img
-                className="mb-2.5 rounded-xl container"
+                className="mb-2.5 rounded-t-xl w-full h-auto"
                 src="https://www.institutoclaro.org.br/educacao/wp-content/uploads/sites/2/2022/11/judo-destaque.png"
                 alt="Foto do professor 1"
               />
@@ -22,6 +22,6 @@ export const TeacherCard = () => {
           </div>
         );
       })}
-    </>
+    </div>
   );
 };

@@ -36,17 +36,17 @@ export default function ParallaxComponent() {
           className="text-center mb-44 absolute container"
           style={{ bottom: value * -0.9 + 'px' }}
         >
-          <h1 className="mt-18 custom-font custom-text text-5xl">
+          <h1 className="mt-18 custom-font custom-text text-xl sm:text-5xl">
             ACADEMIA DE ARTES MARCIAIS BUSHIDO
           </h1>
-          <h2 className="mt-10 custom-font text-white text-3xl">
+          <h2 className="mt-10 custom-font text-white text-xl sm:text-3xl">
             Na Academia de Judô Bushido, você é desafiado a superar seus limites e medos para
             alcançar a excelência, tanto dentro quanto fora do tatame
           </h2>
         </div>
         <div className="mt-16 absolute" style={{ paddingTop: value * 1.0 + 'px' }}>
           <Image
-            className="relative mt-8	l-0 w-full pointer-events-none	container"
+            className="relative mt-8	l-0 w-full sm:w-auto pointer-events-none"
             src={img}
             width={300}
             height={300}
