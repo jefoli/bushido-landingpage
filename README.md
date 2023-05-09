@@ -2,7 +2,7 @@
 
 O projeto Bushido Judo Academy é uma landing page para a academia de artes marciais de judô chamada Bushido. O objetivo dessa landing page é fornecer informações sobre a academia, seus serviços e atividades, e promover o judô como uma prática saudável e benéfica. 
 
-Atualmente, o projeto Bushido Judo Academy encontra-se em produção e está disponível para acesso através do link https://bushido-landingpage.vercel.app/. 
+Atualmente, o projeto Bushido Judo Academy encontra-se em produção, mas passa por atualização de componentes. Acesse o site através do link https://www.bushido.com.br. 
 
 É importante ressaltar que o site passará por atualizações periódicas, visando sempre aprimorar e agregar novas funcionalidades e informações relevantes para os usuários. 
 
