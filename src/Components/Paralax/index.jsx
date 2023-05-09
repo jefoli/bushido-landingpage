@@ -63,9 +63,9 @@ export default function ParallaxComponent() {
             style={{ width: value * 0.4 + 'px' }}
           />
         </div>
-        <div className="-ml-28 -bottom-10	 absolute" style={{ right: value * 0.1 + 'px' }}>
+        <div className="-mr-28 -bottom-10	 absolute" style={{ right: value * 0.1 + 'px' }}>
           <Image
-            className="relative mt-12	l-0 w-full pointer-events-none  filter grayscale invert -z-10 -scale-x-100 container"
+            className="relative mt-12	l-0 w-full pointer-events-none  filter grayscale invert -z-10 -scale-x-100"
             src={golpe}
             width={600}
             height={600}

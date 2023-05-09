@@ -67,19 +67,21 @@ export default function Navbar() {
               <IoReorderThreeSharp />
             </button>
           </div>
-          <div className="md:hidden">
+          <div className="md:hidden ">
             <div
-              className={`px-2 pt-2 pb-3 sm:px-3 bg-zinc-200 ${visibleMobileMenu ? '' : 'hidden'}`}
+              className={`px-2 pt-2 pb-3 sm:px-3 bg-zinc-400 grid ${
+                visibleMobileMenu ? '' : 'hidden'
+              }`}
             >
               <MenuLink
                 href="/"
-                className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
+                className=" text-white block px-3 py-2 rounded-md text-base font-medium"
               >
                 Home
               </MenuLink>
               <MenuLink
                 href="#about"
-                className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
+                className="text-white block px-3 py-2 rounded-md text-base font-medium"
               >
                 Sobre
               </MenuLink>
