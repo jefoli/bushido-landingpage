@@ -7,7 +7,7 @@ function Schedule() {
         <h2 className="text-3xl font-bold m-4 my-8 custom-font custom-text uppercase">
           Horários de Aula
         </h2>
-        <p className="text-2xl p-3 text-white">
+        <p className="text-2xl p-3">
           Os horários de aula da escola Judô Bushido são pensados para atender a todos os alunos,
           desde crianças até adultos. As aulas de Judo Kids acontecem às segundas e quartas-feiras,
           das 19h30 às 20h30, enquanto as aulas de Judo Adulto ocorrem às terças e quintas-feiras,

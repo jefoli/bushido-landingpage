@@ -7,19 +7,19 @@ export const Address = () => {
         <h1 className="text-4xl font-bold m-5 custom-font custom-font custom-text uppercase ">
           Venha nos visitar
         </h1>
-        <p className="text-2xl p-3">
+        <p className="text-2xl p-3 color-text">
           Nossa academia está pronta para receber alunos de todas as idades e níveis de habilidade.
           Não importa se você é um iniciante ou um judoca experiente, temos o programa de
           treinamento certo para você.
         </p>
-        <p className="text-2xl p-3">
+        <p className="text-2xl p-3 color-text">
           Use o mapa abaixo para nos encontrar e agende uma aula experimental hoje mesmo!
         </p>
       </div>
       <div className="flex justify-center items-center">
         <FaMapMarkerAlt />
-        <h2 className="text-2xl p-3">
-          Rua Doutor Prudente de Morais | n 1330 | Centro | Tatuí-SP | CEP: 18275-110
+        <h2 className="text-2xl p-3 color-text">
+          Rua Doutor Prudente de Morais, 1330, Centro, Tatuí-SP
         </h2>
       </div>
 

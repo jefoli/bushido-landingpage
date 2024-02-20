@@ -75,8 +75,8 @@ header {
   font-size: 1em;
   color: #000;
   font-weight: 300;
-
 }
+
 .sec2:hover p {
   transform: translateY(0);
   color: white;
@@ -129,4 +129,8 @@ tbody td:not(:first-child) {
   background: linear-gradient(to right, #e4d98e, #af8f50);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.color-text {
+  color: #000;
 }
