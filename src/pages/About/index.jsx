@@ -15,7 +15,8 @@ function About() {
           idades e níveis de habilidade.
         </p>
         <p className="text-2xl p-3 color-text">
-          A academia, batizada de Bushido, iniciou suas atividades em um pequeno espaço, oferecendo aulas duas vezes por semana para crianças e jovens.
+          A academia, batizada de Bushido, iniciou suas atividades em um pequeno espaço, oferecendo
+          aulas duas vezes por semana para crianças e jovens.
         </p>
         <p className="text-2xl p-3 color-text">
           Com a dedicação e comprometimento dos professores, a Judô Tatuí logo ganhou destaque na
